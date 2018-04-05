@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../fonts/CenturyGothic.eot');
+  src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CenturyGothic.woff') format('woff'),
+    url('../fonts/CenturyGothic.ttf') format('truetype'),
+    url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Century Gothic';
+  font-weight: normal;
+  font-style: normal;
+}  
+#page-full {
+  background: url(../img/background.jpg) no-repeat scroll center center / cover;
+  background-attachment: scroll;
+  height: 100%;
+}
+p, a {
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+  color: #211915;
+  outline: none;
+}
+.row {
+  margin-bottom: 0px;
+}
+.row_ {
+  width: 50%; 
+  margin: 0 auto 10px !important;
+}
+#face span, #instagram span, #whatsapp span, #fone span, #mail span {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#face a, #instagram a, #whatsapp a, #fone a, #mail a {
+  float: left;
+}
+#face a {
+  background: url(../img/icon-face.png) no-repeat left center;
+  text-indent: 27px;
+}
+#instagram a {
+  background: url(../img/icon-instagram.png) no-repeat left center;
+  text-indent: 24px;
+}
+#whatsapp span {
+  width: 204px;
+}
+#whatsapp a {
+  background: url(../img/icon-whatsapp.png) no-repeat left center;
+  text-indent: 50px;
+}
+#fone span {
+  width: 180px;
+}
+#fone a {
+  background: url(../img/icon-fone.png) no-repeat left center;
+  text-indent: 36px;
+}
+#mail a {
+  background: url(../img/icon-mail.png) no-repeat left center;
+  text-indent: 33px;
+}
+#address {
+  padding: 42px 0 10px 0;
+}
+#popup {
+  width: 100%;
+  height: 100%;
+  top: 0 !important;
+  position: fixed !important;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 9999;
+}
+.box-popup {
+  width: 48%;
+  height: 70%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+}
+.img-responsive img {
+    vertical-align: middle;
+}
+.img-responsive img {
+    border: 0 none;
+}
+@media only screen and (max-width : 1200px) {
+  .row_ {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width : 1920px) {
+  .box-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .row_ {
+    width: 100%;
+  }
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .row #whatsapp, .row #fone {
+    width: 50%;
+  }
+  .row #mail {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) { 
+  .box-popup {
+    width: 95% !important;
+    height: 45%;
+  }
+  .box-popup img {
+    margin: 0 auto;
+  }
+
+@media only screen and (max-width : 600px) {
+  .row_ {
+    width: 100%;
+  }
+  .row #whatsapp, .row #fone {
+    width: 100%;
+  }
+  #mail a {
+    font-size: 0.8rem;
+  }
+  .box-mobile {
+    display: block;
+  }
+  .box-desktop {
+    display: none;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
